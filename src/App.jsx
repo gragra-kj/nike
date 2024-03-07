@@ -1,14 +1,41 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import CustomerReviews from "./sections/CustomerReviews";
+import Footer from "./sections/Footer";
+import Hero from "./sections/Hero";
+import PopularProducts from "./sections/PopularProducts";
+import Services from "./sections/Services";
+import SpecialOffer from "./sections/SpecialOffer";
+import Subscribe from "./sections/Subscribe";
+import SuperQuality from "./sections/SuperQuality";
+
+const App=()=>(
+  <main className="relative">
+    Nav
+    <section className="x1:padding-1 wide:padding-r padding-r">
+      <Hero/>
+    </section>
+    <section className="padding">
+      <PopularProducts/>
+    </section>
+    <section className="padding">
+      <SuperQuality/>
+    </section>
+    <section className="padding-x py-10">
+      <Services/>
+    </section>
+    <section className="padding">
+        <SpecialOffer/>
+    </section>
+    <section className="padding bg-slate-400">
+      <CustomerReviews/>
+    </section>
+    <section className="padding-x sm:py-32 py-16 w-full">
+      <Subscribe/>
+    </section>
+    <section className="padding bg-black padding-x padding-t pb-8 text-white-600">
+      <Footer/>
+    </section>
 
 
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <h1 className='font-bold underline text-3xl'>Hello Grcie</h1>
-  )
-}
-
-export default App
+  </main>
+);
+export default App;
