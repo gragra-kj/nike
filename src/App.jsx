@@ -1,3 +1,4 @@
+import Nav from "./components/Nav";
 import CustomerReviews from "./sections/CustomerReviews";
 import Footer from "./sections/Footer";
 import Hero from "./sections/Hero";
@@ -9,8 +10,8 @@ import SuperQuality from "./sections/SuperQuality";
 
 const App=()=>(
   <main className="relative">
-    Nav
-    <section className="x1:padding-1 wide:padding-r padding-r">
+    <Nav/>
+    <section className="x1:padding-l wide:padding-r padding-r">
       <Hero/>
     </section>
     <section className="padding">
