@@ -7,7 +7,7 @@ const PopularProducts = () => {
    <section id='products' className='max-container max-sm:mt-12'>
     <div className='flex flex-col justify-start gap-5 '>
       <h2 className='text-4-xl font-sans font-bold'>Our
-      <span className='text-red-400'>Popular </span>Products</h2>
+      <span className='text-red-400'> Popular </span>Products</h2>
       <p className='lg:max-w-lg mt-2 font-mono text-slate-500'> Experience top-notch quality and style with out sought-after selection. Discover a world of comfort, design and value</p>
     </div>
 
